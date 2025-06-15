@@ -24,4 +24,25 @@ Host <EC2 FQDN hostname from EC2>
 <p align="center"><img src="03-remote-host-shell.png" alt="ssh config " width="480px"></p>
 
 
+# Install Python 3.13 and Virtualenv
 
+1. Install Python 3.13 from ppa:deadsnakes/ppa
+
+   Reference : https://ubuntushell.com/install-python-beta-on-linux/
+
+```
+# Adding the Deadsnakes PPA
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+
+# Updating the package database
+$ sudo apt update
+
+# Installing the Python 3.13
+$ sudo apt install python3.13
+```
+
+2. Install virtualenv :
+
+```
+sudo apt install virtualenv
+```
